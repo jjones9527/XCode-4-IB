@@ -26,4 +26,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)buttonWasTapped:(UIButton *)sender {
+    if ([_theLabel.text isEqualToString:@"This is off"])
+    _theLabel.text = @"This is on";
+    else
+    _theLabel.text = @"This is off";
+}
 @end

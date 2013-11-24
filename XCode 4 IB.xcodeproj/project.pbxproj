@@ -22,6 +22,7 @@
 		3FA254F8183999AB00B96998 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA254D7183999AA00B96998 /* UIKit.framework */; };
 		3FA25500183999AB00B96998 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FA254FE183999AB00B96998 /* InfoPlist.strings */; };
 		3FA25502183999AB00B96998 /* XCode_4_IBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA25501183999AB00B96998 /* XCode_4_IBTests.m */; };
+		3FD5C73E1842847F002FC263 /* IBView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD5C73D1842847F002FC263 /* IBView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		3FA254FD183999AB00B96998 /* XCode 4 IBTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XCode 4 IBTests-Info.plist"; sourceTree = "<group>"; };
 		3FA254FF183999AB00B96998 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3FA25501183999AB00B96998 /* XCode_4_IBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCode_4_IBTests.m; sourceTree = "<group>"; };
+		3FD5C73C1842847F002FC263 /* IBView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBView.h; sourceTree = "<group>"; };
+		3FD5C73D1842847F002FC263 /* IBView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				3FA254E2183999AB00B96998 /* AppDelegate.h */,
 				3FA254E3183999AB00B96998 /* AppDelegate.m */,
 				3FA254E5183999AB00B96998 /* Main_iPhone.storyboard */,
+				3FD5C73C1842847F002FC263 /* IBView.h */,
+				3FD5C73D1842847F002FC263 /* IBView.m */,
 				3FA254E8183999AB00B96998 /* Main_iPad.storyboard */,
 				3FA254EB183999AB00B96998 /* ViewController.h */,
 				3FA254EC183999AB00B96998 /* ViewController.m */,
@@ -254,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FA254ED183999AB00B96998 /* ViewController.m in Sources */,
+				3FD5C73E1842847F002FC263 /* IBView.m in Sources */,
 				3FA254E4183999AB00B96998 /* AppDelegate.m in Sources */,
 				3FA254E0183999AA00B96998 /* main.m in Sources */,
 			);
@@ -474,6 +480,7 @@
 				3FA25507183999AB00B96998 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FA25508183999AB00B96998 /* Build configuration list for PBXNativeTarget "XCode 4 IBTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +489,7 @@
 				3FA2550A183999AB00B96998 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

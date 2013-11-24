@@ -10,4 +10,8 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)buttonWasTapped:(UIButton *)sender;
+
+@property (weak, nonatomic) IBOutlet UILabel *theLabel;
+
 @end
